@@ -1,8 +1,18 @@
-# [dellano-portfolio](https://dellano-portfolio.com.br/)
+# [postnews](https://post-news-app.vercel.app/)
 
-O [dellano-portfolio](https://dellano-portfolio.com.br/) é um site que criei com o objetivo de reunir todos os projetos que desenvolvi até aqui, onde aproveitei uma excelente oportunidade para absorver os conhecimentos do curso.dev para criação de um projeto full-stack, utilizando tecnologias que ainda não havia utilizado em um projeto real, como JS, NodeJS, NextJs.
+O [postnews](https://post-news-app.vercel.app/) é um sistema de artigos e newsletter, que permite o usuário criar, postar, editar e ler artigos relacionados à área tech principalmente, onde utilizei Next.js, React e Node.js para criação do projeto.
 
-Esse repositório contém o código-fonte do site e da API do dellano-portfolio.
+Ele foi desenvolvido a partir de uma excelente oportunidade para absorver os conhecimentos do curso.dev para criação de um projeto full-stack, utilizando tecnologias como JavaScript, NodeJS, NextJs, postgres entre outras.
+
+Você pode acessar o projeto via WEB e também a api de status. A aplicação está em desenvolvimento, então conforme for lançando novos endpoints, irei atualizar tanto as issues do git hub, quanto este readme.
+
+Página do postnews: https://post-news-app.vercel.app/
+
+URL da api de status: https://post-news-app.vercel.app/api/v1/status
+
+(Este endpoint retorna um JSON demonstrando as informações do banco de dados, como versão, conexões máximas, conexões abertas).
+
+Esse repositório contém o código-fonte do site e da API do postnews.
 
 **Conteúdo**
 
@@ -30,7 +40,7 @@ Nelas você encontra as Issues e sub-issues, com uma descrição de todo meu pro
 
 ## Instalar e rodar o projeto
 
-Rodar a aplicação em sua máquina local é uma tarefa bastante simples.
+Se desejar rodar o projeto em sua máquina local, é uma tarefa bastante simples.
 
 ### Dependências globais
 
@@ -111,6 +121,6 @@ npm run test:watch
 Caso não queira executar (ou dar `watch`) em todos os testes e queira isolar arquivos específicos de teste, você pode filtrar pelo caminho. Não é necessário digitar o caminho inteiro para o arquivo e você também pode fornecer mais de um caminho, veja alguns exemplos abaixo:
 
 ```bash
-# Rodar apenas o t este da api de status
+# Rodar apenas o teste da api de status
 npm run test -- api/v1/status
 ```
