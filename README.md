@@ -26,7 +26,6 @@ Nelas você encontra as Issues e sub-issues, com uma descrição de todo meu pro
 
 <img width="1615" height="805" alt="image" src="https://github.com/user-attachments/assets/7ebe9498-e2c4-4dab-9307-4bc7447f9762" />
 
-
 <img width="1687" height="842" alt="image" src="https://github.com/user-attachments/assets/3bdf9c8a-59b9-41fc-b5c5-74b740964b63" />
 
 ## Instalar e rodar o projeto
@@ -38,29 +37,33 @@ Rodar a aplicação em sua máquina local é uma tarefa bastante simples.
 Você precisa ter duas principais dependências instaladas:
 
 - Node.js LTS v22 (ou qualquer versão superior)
+
 ```bash
 node -v
 ```
+
 - Docker Engine v17.12.0 com Docker Compose v1.29.2 (ou qualquer versão superior)
+
 ```bash
 docker -v
 ```
 
 ### Dependências locais
 
-*Importante: Acesse sempre o diretório `/portfolio-next` para estas ações abaixo*
+_Importante: Acesse sempre o diretório `/postnews` para estas ações abaixo_
 
 Com o repositório clonado e as dependências globais instaladas, você pode instalar as dependências locais do projeto:
 
 ```bash
+cd postnews
 npm install
 ```
 
 ### Rodar o projeto
 
-*Importante: Garanta que o docker desktop e o Node.Js estejam em execução no seu dispositivo*
+_Importante: Garanta que o docker desktop e o Node.Js estejam em execução no seu dispositivo_
 
-Para rodar o projeto localmente, basta acessar o diretório portfolio-next, com o comando `cd .\portfolio-next\` e executar o comando abaixo:
+Para rodar o projeto localmente, basta acessar o diretório `postnews`, com o comando `cd postnews` e executar o comando abaixo:
 
 ```bash
 npm run dev
@@ -83,7 +86,7 @@ Lembrando que os serviços precisam estar rodando para os testes passarem, use `
 
 Há várias formas de rodar os testes dependendo do que você deseja fazer, mas o primeiro passo antes de fazer qualquer alteração no projeto é rodar os testes de forma geral para se certificar que tudo está passando como esperado. O comando abaixo irá rodar todos os serviços necessários, rodar os testes e em seguida derrubar todos os serviços.
 
-Na pasta `/portfolio-next`:
+Na pasta `/postnews`:
 
 ```bash
 npm test

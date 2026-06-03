@@ -679,11 +679,22 @@ export default function Home() {
                     marginBottom: "1.25rem",
                   }}
                 >
-                  Este site que você acessa. No momento, está centralizado em um
-                  portfolio pessoal mas estou desenvolvendo uma aplicação de
-                  artigos com Next.js 16 App Router, API Routes RESTful
-                  versionadas e pipeline de CI/CD com foco em segurança e testes
-                  automatizados.
+                  Desenvolvimento de uma plataforma pessoal fullstack com
+                  frontend em Next.js 16 e React 19, integrando um backend em
+                  Node.js conectado a PostgreSQL. Frontend: UI responsiva com
+                  navegação por seções, animações sutis. Arquitetura: Backend em
+                  Node.js consumindo dados do PostgreSQL, com camada de banco
+                  estruturada e migrações gerenciadas pela ferramenta
+                  node-pg-migrate para criar, alterar e controlar o histórico da
+                  estrutura (esquema) do banco de dados. Segurança de dados:
+                  Foco em uso de consultas parametrizadas e boas práticas para
+                  reduzir riscos de SQL Injection. Testes: Cobertura com Jest
+                  para endpoints e validações de integração. Desenvolvimento foi
+                  feito baseado em testes. Infraestrutura & DevOps: ambiente
+                  local orquestrado com Docker Compose, banco PostgreSQL em
+                  container e deploy contínuo planejado para Vercel. Stack:
+                  Next.js, React, TypeScript, Node.js, PostgreSQL, Docker, Jest,
+                  Vercel.
                   <br />
                   <br />
                   Todo meu processo está documentado também nas{" "}
@@ -720,7 +731,7 @@ export default function Home() {
                   >
                     <span className="project-bullet">›</span>
                     <span>
-                      API Routes Node.js com arquitetura RESTful versionada
+                      API pages Node.js com arquitetura RESTful versionada
                       (/api/v1)
                     </span>
                   </li>
